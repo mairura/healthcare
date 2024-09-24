@@ -34,11 +34,13 @@ To run the Healthcare Facility Management System locally, follow these steps:
 
 1. Clone the repository:
    git clone https://github.com/mairura/healthcare.git
-2. Navigate to the project directory:
+   
+3. Navigate to the project directory:
 
-3.  Install dependencies 
-
-4. Set up environment variables:
+4.  Install dependencies
+      npm install
+    
+5. Set up environment variables:
   - PROJECT_ID=
   - API_KEY=
   - PATIENT_COLLECTION_ID=
