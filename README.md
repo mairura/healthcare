@@ -39,18 +39,19 @@ To run the Healthcare Facility Management System locally, follow these steps:
 3.  Install dependencies 
 
 4. Set up environment variables:
-  PROJECT_ID=
-  API_KEY=
-  PATIENT_COLLECTION_ID=
-  DOCTOR_COLLECTION_ID=
-  APPOINTMENT_COLLECTION_ID=
-  NEXT_PUBLIC_BUCKET_ID=
-  NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
-  NEXT_PUBLIC_ADMIN_PASSKEY=
-  TWILIO_RECOVERY_KEY=
-  TWILIO_ACCOUNT_SID=
-  TWILIO_AUTH_TOKEN=
-  SENTRY_AUTH_TOKEN=
+  - PROJECT_ID=
+  - API_KEY=
+  - PATIENT_COLLECTION_ID=
+  - DOCTOR_COLLECTION_ID=
+  - APPOINTMENT_COLLECTION_ID=
+  - NEXT_PUBLIC_BUCKET_ID=
+  - NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
+  - NEXT_PUBLIC_ADMIN_PASSKEY=
+  - TWILIO_RECOVERY_KEY=
+  - TWILIO_ACCOUNT_SID=
+  - TWILIO_AUTH_TOKEN=
+   - SENTRY_AUTH_TOKEN=
+    
 5. Run the development server:
    npm run dev
 
