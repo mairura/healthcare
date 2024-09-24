@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 Healthcare Facility Management System
+Overview
+The Healthcare Facility Management System is a web-based application designed to streamline patient interactions with a healthcare facility. It offers features like patient registration, secure login, booking appointments with specific doctors, and the ability to reschedule or cancel appointments anytime. This system aims to enhance the patient experience and simplify administrative tasks for healthcare providers.
 
-## Getting Started
+# ✨ Features
+1. 📝 Patient Registration:
 
-First, run the development server:
+- New patients can create an account by providing necessary details like name, age, contact information, and medical history.
+Secure storage of patient information using modern encryption techniques.
+Patient Login:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. 🔐 Patients can log in using their email and password.
+- Passwords are stored securely using hashing algorithms to ensure privacy.
+Book an Appointment:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. 🩺 Patients can browse a list of available doctors and book appointments.
+- Appointments can be scheduled for available dates and times specific to each doctor.
+Confirmation is provided upon successful booking.
+Reschedule or Cancel Appointments:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. 🔄 Patients can view their upcoming appointments.
+- Appointments can be easily rescheduled or canceled at any time, depending on availability.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# 🛠️ Technologies Used
 
-## Learn More
+1. Frontend: NextJS with TailwindCSS
+2. Backend: Node.js with Appwrite
+3. Deployment: Deployed using Vercel
 
-To learn more about Next.js, take a look at the following resources:
+🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Installation
+To run the Healthcare Facility Management System locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   git clone https://github.com/mairura/healthcare.git
+2. Navigate to the project directory:
 
-## Deploy on Vercel
+3.  Install dependencies 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Set up environment variables:
+  PROJECT_ID=
+  API_KEY=
+  PATIENT_COLLECTION_ID=
+  DOCTOR_COLLECTION_ID=
+  APPOINTMENT_COLLECTION_ID=
+  NEXT_PUBLIC_BUCKET_ID=
+  NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
+  NEXT_PUBLIC_ADMIN_PASSKEY=
+  TWILIO_RECOVERY_KEY=
+  TWILIO_ACCOUNT_SID=
+  TWILIO_AUTH_TOKEN=
+  SENTRY_AUTH_TOKEN=
+5. Run the development server:
+   npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. Open http://localhost:3000 to view the app in your browser.
+
+# 🎯 Future Improvements
+1. 📩 Appointment Notifications: Implement email or SMS notifications to remind patients of upcoming appointments.
+2. 💳 Payment Integration: Add functionality for patients to make payments for their consultations or treatments online.
+3. 📄 Medical Records: Allow patients to upload and view their medical records through the platform.
+
+   
