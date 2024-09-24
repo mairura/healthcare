@@ -33,14 +33,15 @@ Reschedule or Cancel Appointments:
 To run the Healthcare Facility Management System locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/mairura/healthcare.git
+  - git clone https://github.com/mairura/healthcare.git
    
 3. Navigate to the project directory:
+   - cd carepulse
 
-4.  Install dependencies
-      npm install
+5.  Install dependencies
+      - npm install
     
-5. Set up environment variables:
+6. Set up environment variables:
   - PROJECT_ID=
   - API_KEY=
   - PATIENT_COLLECTION_ID=
